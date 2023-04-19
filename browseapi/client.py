@@ -13,9 +13,9 @@ TIMEOUT = 60
 
 class BrowseAPI(object):
     """ Client class for eBay Browse API """
-
-    _uri = 'https://api.ebay.com/buy/browse/v1'
-    _auth_uri = 'https://api.ebay.com/identity/v1/oauth2/token'
+    # uri has been changed to ebay sandbox enpoint
+    _uri = 'https://api.sandbox.ebay.com/buy/browse/v1'
+    _auth_uri = 'https://api.sandbox.ebay.com/identity/v1/oauth2/token'
     _search_uri = _uri + '/item_summary/search?'
     _search_by_image_uri = _uri + '/item_summary/search_by_image?'
     _get_item_uri = _uri + '/item/{item_id}?'
@@ -26,7 +26,7 @@ class BrowseAPI(object):
     # Client Credential Grant Type
 
     _credentials_grant_type = 'client_credentials'
-    _scope_public_data = 'https://api.ebay.com/oauth/api_scope'
+    _scope_public_data = 'https://api.sandbox.ebay.com/oauth/api_scope'
 
     supported_methods = (
         'search',
