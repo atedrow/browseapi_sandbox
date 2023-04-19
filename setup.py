@@ -6,14 +6,14 @@ with open('README.rst') as file:
 setup(
     name='browseapi_sandbox',
     packages=find_packages(exclude=['test']),
-    version='0.3',
+    version='0.4',
     license='MIT',
     description='eBay Browse API Python client',
     long_description=long_description,
     author='Alexander Tedrow',
     author_email='atedrow@clemson.edu',
     url='https://github.com/atedrow/browseapi_sandbox',
-    download_url='https://github.com/atedrow/browseapi_sandbox/archive/refs/tags/v_03.tar.gz',
+    download_url='https://github.com/atedrow/browseapi_sandbox/archive/refs/tags/v_04.tar.gz',
     keywords=['ASYNC', 'BROWSE API', 'CLIENT'],
 
     install_requires=[
