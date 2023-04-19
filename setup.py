@@ -5,15 +5,15 @@ with open('README.rst') as file:
 
 setup(
     name='browseapi_sandbox',
-    packages=['browseapi_sandbox'],
-    version='0.0.1',
+    packages=['browseapi_sandbox/'],
+    version='0.3',
     license='MIT',
     description='eBay Browse API Python client',
     long_description=long_description,
-    author='Andrii Matiiash',
-    author_email='andmati743@gmail.com',
+    author='Alexander Tedrow',
+    author_email='atedrow@clemson.edu',
     url='https://github.com/atedrow/browseapi_sandbox',
-    download_url='https://github.com/atedrow/browseapi_sandbox/archive/refs/tags/v_02.tar.gz',
+    download_url='https://github.com/atedrow/browseapi_sandbox/archive/refs/tags/v_03.tar.gz',
     keywords=['ASYNC', 'BROWSE API', 'CLIENT'],
 
     install_requires=[
