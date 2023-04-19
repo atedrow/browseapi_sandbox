@@ -26,7 +26,7 @@ class BrowseAPI(object):
     # Client Credential Grant Type
 
     _credentials_grant_type = 'client_credentials'
-    _scope_public_data = 'https://api.sandbox.ebay.com/oauth/api_scope'
+    _scope_public_data = 'https://api.ebay.com/oauth/api_scope'
 
     supported_methods = (
         'search',
