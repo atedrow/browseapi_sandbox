@@ -13,7 +13,7 @@ setup(
     author='Andrii Matiiash',
     author_email='andmati743@gmail.com',
     url='https://github.com/atedrow/browseapi_sandbox',
-    download_url='https://github.com/atedrow/browseapi_sandbox/archive/v_01.tar.gz',
+    download_url='https://github.com/atedrow/browseapi_sandbox/archive/refs/tags/v_02.tar.gz',
     keywords=['ASYNC', 'BROWSE API', 'CLIENT'],
 
     install_requires=[
