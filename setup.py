@@ -1,11 +1,11 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 with open('README.rst') as file:
     long_description = file.read()
 
 setup(
     name='browseapi_sandbox',
-    packages=['browseapi_sandbox/'],
+    packages=find_packages(exclude=['test']),
     version='0.3',
     license='MIT',
     description='eBay Browse API Python client',

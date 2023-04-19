@@ -1,12 +1,12 @@
 Metadata-Version: 1.1
 Name: browseapi-sandbox
-Version: 0.0.1
+Version: 0.3
 Summary: eBay Browse API Python client
 Home-page: https://github.com/atedrow/browseapi_sandbox
-Author: Andrii Matiiash
-Author-email: andmati743@gmail.com
+Author: Alexander Tedrow
+Author-email: atedrow@clemson.edu
 License: MIT
-Download-URL: https://github.com/atedrow/browseapi_sandbox/archive/refs/tags/v_02.tar.gz
+Download-URL: https://github.com/atedrow/browseapi_sandbox/archive/refs/tags/v_03.tar.gz
 Description: Browse API client
         =================
         
