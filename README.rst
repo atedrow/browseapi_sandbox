@@ -12,7 +12,7 @@ For more information about this API visit official
 Installation
 ------------
 
-Install from PyPI by ``pip install browseapi``
+Install from PyPI by ``pip install browseapi_sandbox``
 
 Supported methods
 -----------------
